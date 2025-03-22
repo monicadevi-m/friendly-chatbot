@@ -6,7 +6,7 @@ API_KEY = "AIzaSyBD409CWUKxgOeEVtbFMhoLD_ELweuyZzk"  # Replace with your actual 
 genai.configure(api_key=API_KEY)
 
 # Load Gemini Pro model
-model = genai.GenerativeModel(model_name="gemini-pro")
+model = genai.GenerativeModel(model_name="gemini-1.5-pro-latest")
 
 # --- Streamlit Page Settings ---
 st.set_page_config(page_title="Friendly Chat", page_icon="💭")
